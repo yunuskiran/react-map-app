@@ -21,6 +21,9 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "node_modules/arcgis-js-api/index.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ]
 }
