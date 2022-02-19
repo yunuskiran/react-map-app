@@ -9,9 +9,9 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     backend: {
-      loadPath: `/locales/{{lng}}/translation.json`,
+      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/translation.json`,
     },
-    fallbackLng: "tr",
+    fallbackLng: "en",
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
