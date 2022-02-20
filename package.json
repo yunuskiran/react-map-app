@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yunuskiran.github.io/poc/",
+  "homepage": "https://yunuskiran.github.io/poc",
   "name": "react-onemap",
   "version": "0.1.0",
   "private": true,
@@ -53,7 +53,7 @@
     "build": "react-scripts build",
     "build:staging": "env-cmd -f .env.staging npm run build",
     "build:production": "env-cmd -f .env.production npm run build",
-    "predeploy": "npm run build:production",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "react-scripts test"
