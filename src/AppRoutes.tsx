@@ -17,7 +17,7 @@ const AppRoutes = () => {
   return (
     <Fragment>
       <Routes>
-        <Route path="/poc" element={<PrivateRoute component={Admin} />}>
+        <Route path="/" element={<PrivateRoute component={Admin} />}>
           <Route path="onemap" element={<PrivateRoute component={Onemap} />} />
           <Route
             path="profile"
